@@ -1,0 +1,2 @@
+# mauto-ansible
+manage mauto
