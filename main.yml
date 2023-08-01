@@ -1,5 +1,6 @@
 ---
 - hosts: vc
   remote_user: root
+  tasks:
   - name: ping vcenter
     ping:
