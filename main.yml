@@ -1,0 +1,5 @@
+---
+- hosts: vc
+  remote_user: root
+  - name: ping vcenter
+    ping:
