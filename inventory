@@ -1,5 +1,20 @@
+[all]
+
+[all:vars]
+
+#Localhost
+[local]
+localhost   ansible_connection=local
+
 [servers]
 checkmkubuntu
 netbox
 portainer
 zabbix
+
+#VCenter
+[vc]
+vc7-240stb
+
+ansible_connection=ssh
+ansible_user=root
